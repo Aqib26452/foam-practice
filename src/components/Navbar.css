@@ -1,0 +1,161 @@
+nav {
+  background-color: rgb(241, 210, 169);
+  box-shadow: 10px 0 10px 10px rgb(77, 76, 76);
+}
+.main-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+}
+li a:hover {
+  transition: 0.9s all;
+  color: blue;
+}
+.logo {
+  border-radius: 50%;
+}
+li {
+  list-style: none;
+}
+.button-nav-set {
+  padding: 7px;
+
+  background-color: aqua;
+  border-radius: 15px;
+  border: none;
+  color: rgb(133, 22, 22);
+  transition: 0.9s all;
+}
+.button-nav-set:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #000;
+}
+.bg-set {
+  background-color: #e6f5f7;
+  color: white;
+}
+
+.div-set {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin: auto; */
+}
+.colsetbg {
+  background-color: #030303;
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+.colsetbg-sign-up {
+  background-color: #7d9243;
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+.login-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputset {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 3px 30px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+.inputset input {
+  width: 90%;
+}
+.set-pass {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 3px 30px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+
+.confirm-pass {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(179, 176, 176);
+  color: black;
+  padding: 3px 30px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+.confirm-pass input {
+  width: 90%;
+}
+.set-pass input {
+  width: 90%;
+}
+.login-button-set {
+  /* margin: 10px 0 10px 0; */
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+  background-color: rgb(22, 148, 148) !important;
+  transition: 2s all;
+  margin-bottom: 10px;
+}
+
+.forget-button-set {
+  background-color: black;
+  border: none;
+  color: blue;
+}
+.forget-button-set-signup {
+  background-color: #7d9243;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: blue;
+  margin-bottom: 10px;
+}
+.divvset {
+  display: flex;
+}
+.border-set-signup-button {
+  border: none;
+  border-radius: 10px;
+  transition: 2s all;
+}
+.border-set-signup-button:hover {
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+}
+.size-set {
+  background-color: white;
+  width: 90%;
+}
+.icon-set {
+  margin: auto;
+}
+.inputsett {
+  border: none;
+}
